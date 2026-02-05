@@ -1,0 +1,29 @@
+# Core LangChain ecosystem (modern)
+langchain>=0.2.11
+langchain-community>=0.2.10
+langgraph>=0.2.20
+
+# Groq (compatible)
+langchain-groq==0.1.9
+groq==0.9.0
+
+# RAG
+faiss-cpu
+sentence-transformers
+
+# File loading
+pypdf
+python-docx
+unstructured
+
+# Tools
+tavily-python
+wikipedia
+
+# Monitoring
+langsmith
+
+# App
+streamlit
+python-dotenv
+tqdm
