@@ -1,5 +1,7 @@
 from langchain_core.messages import HumanMessage
 from agent.graph import build_graph
+from dotenv import load_dotenv
+load_dotenv()
 
 graph = build_graph()
 

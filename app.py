@@ -1,6 +1,8 @@
 import streamlit as st
 from langchain_core.messages import HumanMessage
 from agent.graph import build_graph
+from dotenv import load_dotenv
+load_dotenv()
 
 st.set_page_config(page_title="Agentic RAG", layout="wide")
 
